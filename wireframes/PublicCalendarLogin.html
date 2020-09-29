@@ -1,60 +1,33 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <a href="index.html" class="backButton">Back to Wireframe Home</a>
     <main>
-        <form action="Contacts.html" id="addContactForm">
+        <!-- method="POST" add when submitting for real-->
+        <form action="PublicCalendarForm.html" id="addContactForm">
             <fieldset>
-                <legend>Add Contact</legend>
-                <div class="inputbox">
-                    <label for="fname">First Name: </label>
-                    <input type="text" id="fname" name="fname" placeholder="Enter name" required autofocus />
-                    <small>Please enter at least 2 characters</small>
+                <h1 class="center">Login</h1>
+                <p class="center ">Login to enter available dates.</p>
+                <div class="emailBox">
+                    <h2 class="emailHeading">Email</h2>
+                    <p>John.Doe@gmail.com</p>
                 </div>
                 <div class="inputbox">
-                    <label for="lname">Last Name: </label>
-                    <input type="text" id="lname" name="lname" placeholder="Enter name" required />
-                    <small>Please enter at least 3 characters</small>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" minlength="6"
+                        placeholder="Enter password from email" required />
+                    <small>Password Fail!</small>
                 </div>
-                <div class="inputbox">
-                    <label for="userid">User Id: </label>
-                    <input type="text" id="userid" name="userid" placeholder="Enter username" />
-                    <small>Error Message</small>
-                </div>
-                <div class="inputbox">
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" placeholder="Enter name" required />
-                    <small>Error Message</small>
-                </div>
-                <div class="inputbox">
-                    <label for="birthday">Birth Date: </label>
-                    <input type="date" id="birthday" name="birthday" required />
-                    <small>Error Message</small>
-                </div>
-                <div class="inputbox">
-                    <label for="fname">Group: </label>
-                    <select>
-                        <option value="friends">Friends</option>
-                        <option value="friends">Work</option>
-                        <option value="friends">Family</option>
-                        <option value="friends">Meetup1</option>
-                        <option value="friends">Meetup 2</option>
-                    </select>
-                    <small>Error Message</small>
-                </div>
-                <div class="buttonBox">
-                    <button type="submit" class="buttonLook greenbg">Add</button>
-                    <button type="reset" class="buttonLook redbg" onclick="location.href = 'index.html'">Cancel</button>
-                </div>
+                <button type="submit" class="pubLoginButton">Login</button>
             </fieldset>
         </form>
     </main>
-
-    
 </body>
 </html>

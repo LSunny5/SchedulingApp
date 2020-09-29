@@ -1,24 +1,457 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Public Calendar Submit Form</title>
 </head>
+
 <body>
     <a href="index.html" class="backButton">Back to Wireframe Home</a>
-    <main>
+    <main class="calendarForm">
+        <!-- method="POST" add when submitting for real-->
 
+        <form action="PubCalSubmit.html" id="calendarForm">
 
-
-
-
+            <fieldset>
+                <h1 class="pubCalHeading">Time Selection</h1>
+                <div class="placeInfo">
+                    <p style="font-weight: bolder">Meeting Location:</p>
+                    <p>Some Pub, 123 Some Street, Some City, SC, 123456</p>
+                </div>
+                <p class="calendarLegend">Select your availability on the calendar...</p>
+                <h2 class="weeklyHeading">Weekly Calendar</h2>
+                <p>Click on the day to show the times and select availability.</p>
+                <div class="days first">
+                    <div class="dayName red">Sunday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour red">6:30am</div>
+                                <div class="hour red">7:00am</div>
+                                <div class="hour red">7:30am</div>
+                                <div class="hour red">8:00am</div>
+                                <div class="hour red">8:30am</div>
+                                <div class="hour red">9:00am</div>
+                                <div class="hour red">9:30am</div>
+                                <div class="hour red">10:00am</div>
+                                <div class="hour red">10:30am</div>
+                                <div class="hour red">11:00am</div>
+                                <div class="hour red">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour red">12:00pm</div>
+                                <div class="hour red">12:30pm</div>
+                                <div class="hour red">1:00pm</div>
+                                <div class="hour red">1:3pam</div>
+                                <div class="hour red">2:00pm</div>
+                                <div class="hour red">2:30pm</div>
+                                <div class="hour red">3:00pm</div>
+                                <div class="hour red">3:30pm</div>
+                                <div class="hour red">4:00pm</div>
+                                <div class="hour red">4:30pm</div>
+                                <div class="hour red">5:00pm</div>
+                                <div class="hour red">5:30pm</div>
+                                <div class="hour red">6:00pm</div>
+                                <div class="hour red">6:30pm</div>
+                                <div class="hour red">7:00pm</div>
+                                <div class="hour red">7:30pm</div>
+                                <div class="hour red">8:00pm</div>
+                                <div class="hour red">8:30pm</div>
+                                <div class="hour red">9:00pm</div>
+                                <div class="hour red">9:30pm</div>
+                                <div class="hour red">10:00pm</div>
+                                <div class="hour red">10:30pm</div>
+                                <div class="hour red">11:00pm</div>
+                                <div class="hour red">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Monday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour red">6:30am</div>
+                                <div class="hour red">7:00am</div>
+                                <div class="hour red">7:30am</div>
+                                <div class="hour red">8:00am</div>
+                                <div class="hour green">8:30am</div>
+                                <div class="hour green">9:00am</div>
+                                <div class="hour green">9:30am</div>
+                                <div class="hour green">10:00am</div>
+                                <div class="hour">10:30am</div>
+                                <div class="hour">11:00am</div>
+                                <div class="hour">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour blue">2:00pm</div>
+                                <div class="hour blue">2:30pm</div>
+                                <div class="hour blue">3:00pm</div>
+                                <div class="hour blue">3:30pm</div>
+                                <div class="hour blue">4:00pm</div>
+                                <div class="hour">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour">6:00pm</div>
+                                <div class="hour">6:30pm</div>
+                                <div class="hour">7:00pm</div>
+                                <div class="hour">7:30pm</div>
+                                <div class="hour">8:00pm</div>
+                                <div class="hour">8:30pm</div>
+                                <div class="hour">9:00pm</div>
+                                <div class="hour">9:30pm</div>
+                                <div class="hour">10:00pm</div>
+                                <div class="hour red">10:30pm</div>
+                                <div class="hour red">11:00pm</div>
+                                <div class="hour red">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Tuesday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour red">6:30am</div>
+                                <div class="hour red">7:00am</div>
+                                <div class="hour red">7:30am</div>
+                                <div class="hour">8:00am</div>
+                                <div class="hour">8:30am</div>
+                                <div class="hour">9:00am</div>
+                                <div class="hour">9:30am</div>
+                                <div class="hour red">10:00am</div>
+                                <div class="hour red">10:30am</div>
+                                <div class="hour red">11:00am</div>
+                                <div class="hour red">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour">2:00pm</div>
+                                <div class="hour">2:30pm</div>
+                                <div class="hour">3:00pm</div>
+                                <div class="hour">3:30pm</div>
+                                <div class="hour">4:00pm</div>
+                                <div class="hour">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour">6:00pm</div>
+                                <div class="hour">6:30pm</div>
+                                <div class="hour">7:00pm</div>
+                                <div class="hour red">7:30pm</div>
+                                <div class="hour red">8:00pm</div>
+                                <div class="hour red">8:30pm</div>
+                                <div class="hour red">9:00pm</div>
+                                <div class="hour red">9:30pm</div>
+                                <div class="hour red">10:00pm</div>
+                                <div class="hour red">10:30pm</div>
+                                <div class="hour red">11:00pm</div>
+                                <div class="hour red">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Wednesday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour">6:30am</div>
+                                <div class="hour">7:00am</div>
+                                <div class="hour">7:30am</div>
+                                <div class="hour">8:00am</div>
+                                <div class="hour">8:30am</div>
+                                <div class="hour">9:00am</div>
+                                <div class="hour">9:30am</div>
+                                <div class="hour">10:00am</div>
+                                <div class="hour">10:30am</div>
+                                <div class="hour">11:00am</div>
+                                <div class="hour">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour">2:00pm</div>
+                                <div class="hour blue">2:30pm</div>
+                                <div class="hour blue">3:00pm</div>
+                                <div class="hour blue">3:30pm</div>
+                                <div class="hour blue">4:00pm</div>
+                                <div class="hour blue">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour">6:00pm</div>
+                                <div class="hour">6:30pm</div>
+                                <div class="hour">7:00pm</div>
+                                <div class="hour">7:30pm</div>
+                                <div class="hour">8:00pm</div>
+                                <div class="hour">8:30pm</div>
+                                <div class="hour">9:00pm</div>
+                                <div class="hour">9:30pm</div>
+                                <div class="hour">10:00pm</div>
+                                <div class="hour">10:30pm</div>
+                                <div class="hour">11:00pm</div>
+                                <div class="hour">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Thursday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour">6:30am</div>
+                                <div class="hour">7:00am</div>
+                                <div class="hour">7:30am</div>
+                                <div class="hour">8:00am</div>
+                                <div class="hour">8:30am</div>
+                                <div class="hour">9:00am</div>
+                                <div class="hour">9:30am</div>
+                                <div class="hour">10:00am</div>
+                                <div class="hour">10:30am</div>
+                                <div class="hour">11:00am</div>
+                                <div class="hour">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour">2:00pm</div>
+                                <div class="hour">2:30pm</div>
+                                <div class="hour">3:00pm</div>
+                                <div class="hour">3:30pm</div>
+                                <div class="hour">4:00pm</div>
+                                <div class="hour">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour">6:00pm</div>
+                                <div class="hour">6:30pm</div>
+                                <div class="hour">7:00pm</div>
+                                <div class="hour">7:30pm</div>
+                                <div class="hour">8:00pm</div>
+                                <div class="hour">8:30pm</div>
+                                <div class="hour">9:00pm</div>
+                                <div class="hour">9:30pm</div>
+                                <div class="hour red">10:00pm</div>
+                                <div class="hour red">10:30pm</div>
+                                <div class="hour red">11:00pm</div>
+                                <div class="hour red">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Friday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour red">6:30am</div>
+                                <div class="hour red">7:00am</div>
+                                <div class="hour red">7:30am</div>
+                                <div class="hour red">8:00am</div>
+                                <div class="hour red">8:30am</div>
+                                <div class="hour red">9:00am</div>
+                                <div class="hour red">9:30am</div>
+                                <div class="hour">10:00am</div>
+                                <div class="hour">10:30am</div>
+                                <div class="hour">11:00am</div>
+                                <div class="hour">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour">2:00pm</div>
+                                <div class="hour">2:30pm</div>
+                                <div class="hour">3:00pm</div>
+                                <div class="hour">3:30pm</div>
+                                <div class="hour">4:00pm</div>
+                                <div class="hour">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour green">6:00pm</div>
+                                <div class="hour green">6:30pm</div>
+                                <div class="hour green">7:00pm</div>
+                                <div class="hour green">7:30pm</div>
+                                <div class="hour green">8:00pm</div>
+                                <div class="hour green">8:30pm</div>
+                                <div class="hour green">9:00pm</div>
+                                <div class="hour green">9:30pm</div>
+                                <div class="hour green">10:00pm</div>
+                                <div class="hour green">10:30pm</div>
+                                <div class="hour green">11:00pm</div>
+                                <div class="hour green">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="dayName">Saturday</div>
+                    <div class="hourBox">
+                        <div class="day-grid-container">
+                            <div class="am"><span class="ampm">AM</span>
+                                <div class="hour red">12:00am</div>
+                                <div class="hour red">12:30am</div>
+                                <div class="hour red">1:00am</div>
+                                <div class="hour red">1:30am</div>
+                                <div class="hour red">2:00am</div>
+                                <div class="hour red">2:30am</div>
+                                <div class="hour red">3:00am</div>
+                                <div class="hour red">3:30am</div>
+                                <div class="hour red">4:00am</div>
+                                <div class="hour red">4:30am</div>
+                                <div class="hour red">5:00am</div>
+                                <div class="hour red">5:30am</div>
+                                <div class="hour red">6:00am</div>
+                                <div class="hour red">6:30am</div>
+                                <div class="hour">7:00am</div>
+                                <div class="hour">7:30am</div>
+                                <div class="hour">8:00am</div>
+                                <div class="hour">8:30am</div>
+                                <div class="hour">9:00am</div>
+                                <div class="hour">9:30am</div>
+                                <div class="hour">10:00am</div>
+                                <div class="hour">10:30am</div>
+                                <div class="hour">11:00am</div>
+                                <div class="hour">11:30am</div>
+                            </div>
+                            <div class="pm"><span class="ampm">PM</span>
+                                <div class="hour">12:00pm</div>
+                                <div class="hour">12:30pm</div>
+                                <div class="hour">1:00pm</div>
+                                <div class="hour">1:3pam</div>
+                                <div class="hour green">2:00pm</div>
+                                <div class="hour green">2:30pm</div>
+                                <div class="hour green">3:00pm</div>
+                                <div class="hour green">3:30pm</div>
+                                <div class="hour green">4:00pm</div>
+                                <div class="hour">4:30pm</div>
+                                <div class="hour">5:00pm</div>
+                                <div class="hour">5:30pm</div>
+                                <div class="hour">6:00pm</div>
+                                <div class="hour red">6:30pm</div>
+                                <div class="hour red">7:00pm</div>
+                                <div class="hour red">7:30pm</div>
+                                <div class="hour red">8:00pm</div>
+                                <div class="hour red">8:30pm</div>
+                                <div class="hour red">9:00pm</div>
+                                <div class="hour red">9:30pm</div>
+                                <div class="hour red">10:00pm</div>
+                                <div class="hour red">10:30pm</div>
+                                <div class="hour red">11:00pm</div>
+                                <div class="hour red">11:30pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="commentBox">
+                        <label for="comment">Comments or messages: </label>
+                        <textarea class="comments" id="comment" name="comment"
+                            placeholder="Please write any additional comments here for planner or if you would like to propose other times."></textarea>
+                    </div>
+                    <div class="buttonBox">
+                        <button type="submit" class="submitButton">Submit</button>
+                    </div>
+                    <div class="noGoButtonBox">
+                        <p>Cannot attend the meeting at all?</p>
+                        <button class="cantGoButton">Can't Go</button>
+                    </div>
+            </fieldset>
+        </form>
     </main>
-
-
-    
-
-
-    
+    <script src="dropdown.js"></script>
 </body>
+
 </html>
