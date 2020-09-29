@@ -434,5 +434,44 @@ input:focus {
     font-weight: bolder;
     letter-spacing: 3px;
     text-transform: uppercase;
-    
+}
+
+/*Final Poll CSS*/
+#finalpoll {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding-top: 3rem;
+    width: 90%;
+}
+
+#finalpoll > .placeInfo {
+    width: 75%;
+}
+
+.pollbutton {
+    padding: 1rem 2rem;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    border: 1px solid rgb(62, 105, 62);
+    background: rgb(201, 233, 201);;
+    width: 90%;
+    font-size: 1em;
+}
+
+.otherbutton{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    background: yellow;
+}
+
+.otherBox {
+    margin-bottom: 1.5rem;
+}
+
+.pollinfo {
+    margin: 0;
+
 }
