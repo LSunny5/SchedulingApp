@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuna Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <main>
+        <i class="fas fa-chevron-left"></i>
+        <h1 class="signupheading">Sign up</h1>
+        <form action="forgotpass.html">
+            <fieldset>
+                <input type="text" class="inputField" name="name" id="name" placeholder="Name" required autofocus>
+                <input type="email" class="inputField" name="email" id="email" placeholder="Email" required>
+                <input type="password" class="inputField" name="password" id="password" placeholder="Password" required>
+                <div class="haveLinkBox">
+                    <div><a href="#" class="haveLink">Already have an account?</a></div>
+                </div>
+                <button type="submit" class="signupButton">Sign Up</button>
+            </fieldset>
+        </form>
+    
+        <div class="socialMediaBox">
+            <div class="socialText">Or sign up with social account</div>
+            <button class="mediaButton" onclick="location.href='forgotpass.html'"><img src="./images/GoogleGLogo.png"></button>
+            <button class="mediaButton"><img src="./images/facebooklogo.png"></button>
+        </div>
+    </main>
+</body>
+</html>
